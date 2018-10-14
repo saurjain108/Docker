@@ -1,0 +1,350 @@
+    1  bash script.sh
+    2  adduser test
+    3  passwd test
+    4  cd /home/
+    5  ll
+    6  cd test/
+    7  mkdir playbooks
+    8  chown test:test playbooks/
+    9  ll
+   10  who
+   11  su - test
+   12  yum install epel-release
+   13  yum update repolist
+   14  sudo yum update 
+   15  yum install ansible 
+   16  ansible --version 
+   17  cd /etc/ansible/
+   18  ls
+   19  ll
+   20  cat ansible.cfg 
+   21  vi ansible.cfg 
+   22  cat /etc/selinux/config 
+   23  cat /etc/ansible/ansible.cfg 
+   24  which python
+   25  python -V
+   26  sudo yum list installed | grep python 
+   27  whereis python
+   28  cd
+   29  cd /etc/ansible/
+   30  cat hosts 
+   31  ls
+   32  mv hosts hosts.original
+   33  ls
+   34  touch hosts
+   35  vi hosts
+   36  cat hosts
+   37  vi hosts
+   38  cd
+   39  ansible all --list-hosts
+   40  vi /etc/ansible/hosts
+   41  ansible all --list-hosts
+   42  ansible apacheweb -m ping  
+   43  sudo ansible apacheweb -m ping  
+   44  su - test
+   45  sudo visudo 
+   46  cd
+   47  su - test
+   48  exit
+   49  ls
+   50  sudo yum install git 
+   51  git clone https://github.com/saurjain108/python-practice.git
+   52  ls
+   53  cd python-practice/
+   54  ls
+   55  cd for_python/
+   56  mkdir game_0_x
+   57  cd game_0_x/
+   58  vi game-0X.py
+   59  python2.7 game-0X.py 
+   60  vi game-0X.py
+   61  python2.7 game-0X.py 
+   62  vi game-0X.py
+   63  python2.7 game-0X.py 
+   64  vi game-0X.py
+   65  python2.7 game-0X.py 
+   66  vi game-0X.py
+   67  python2.7 game-0X.py 
+   68  vi game-0X.py
+   69  python2.7 game-0X.py 
+   70  vi game-0X.py
+   71  python2.7 game-0X.py 
+   72  vi game-0X.py
+   73  python2.7 game-0X.py 
+   74  vi game-0X.py
+   75  python2.7 game-0X.py 
+   76  vi game-0X.py
+   77  python2.7 game-0X.py 
+   78  vi game-0X.py
+   79  python2.7 game-0X.py 
+   80  vi game-0X.py
+   81  python2.7 game-0X.py 
+   82  vi game-0X.py
+   83  python2.7 game-0X.py 
+   84  9
+   85  python2.7 game-0X.py 
+   86  vi game-0X.py
+   87  python2.7 game-0X.py 
+   88  vi game-0X.py
+   89  python2.7 game-0X.py 
+   90  vi game-0X.py
+   91  python2.7 game-0X.py 
+   92  vi game-0X.py
+   93  python2.7 game-0X.py 
+   94  vi game-0X.py
+   95  python2.7 game-0X.py 
+   96  vi game-0X.py
+   97  python2.7 game-0X.py 
+   98  vi game-0X.py
+   99  python2.7 game-0X.py 
+  100  vi game-0X.py
+  101  python2.7 game-0X.py 
+  102  vi game-0X.py
+  103  python2.7 game-0X.py 
+  104  vi game-0X.py
+  105  tp.py
+  106  vi tp.py
+  107  python2.7 tp.py 
+  108  vi game-0X.py
+  109  python2.7 game-0X.py 
+  110  vi game-0X.py
+  111  python2.7 game-0X.py 
+  112  cd
+  113  cd /
+  114  ls
+  115  cd
+  116  ll
+  117  ls
+  118  cd swap 
+  119  exit
+  120  sudo visudo 
+  121  exit
+  122  docker
+  123  yum install docker 
+  124  docker ps
+  125  docker run hello-world
+  126  cd
+  127  docker run hello-world
+  128  systemctl start docker 
+  129  systemctl status docker 
+  130  docker run hello-world
+  131  docker image list 
+  132  docker ps
+  133  docker image list 
+  134  docker images 
+  135  docker ps 
+  136  docker ps -a
+  137  docker run --name firstcontainer hello-world 
+  138  docker ps -a
+  139  docker search ubuntu 
+  140  docker ps -a
+  141  exit
+  142  docker ps -a
+  143  docker search ubuntu 
+  144  docker pull devopstrainer/myrepo1:v1.0
+  145  docker images 
+  146  docker login
+  147  docker images
+  148  docker push docker.io/hello-world:v1.0
+  149  docker push docker.io/devopstrainer/myrepo1:v1.0
+  150  docker images
+  151  systemctl status docker 
+  152  systemctl start docker 
+  153  systemctl status docker 
+  154  docker images
+  155  systemctl start docker 
+  156  docker images
+  157  docker ps
+  158  docker run -itd ubuntu
+  159  docker images
+  160  ps
+  161  ps -a 
+  162  docker ps
+  163  docker stop 1d8463dbaeb7
+  164  docker ps
+  165  docker ps -a
+  166  docker start 1d8463dbaeb7
+  167  docker ps
+  168  docker stop 1d8463dbaeb7
+  169  systemctl start docker 
+  170  docker ps 
+  171  docker run -it ubuntu
+  172  docker ps 
+  173  docker stop cc909e746ded
+  174  docker ps 
+  175  las
+  176  ls
+  177  docker ps 
+  178  docker start cc909e746ded
+  179  docker ps 
+  180  docker attach cc909e746ded
+  181  docker ps 
+  182  docker stop cc909e746ded
+  183  docker images
+  184  docker ps 
+  185  docker ps -a
+  186  docker rm 2edcde842a9d
+  187  docker ps -a
+  188  docker rm cc909e746ded
+  189  docker ps -a
+  190  ls
+  191  docker images
+  192  docker rmi docker.io/devopstrainer/myrepo1
+  193  docker rmi docker.io/devopstrainer/myrepo1:v1.0
+  194  docker rmi docker.io/devopstrainer/myrepo1
+  195  docker image
+  196  docker images
+  197  docker rmi *
+  198  docker rmi docker.io/hello-world docker.io/ubuntu
+  199  docker ps -a 
+  200  docker rmi -f docker.io/hello-world docker.io/ubuntu
+  201  docker images
+  202  docker ps -a 
+  203  docker rm 1d8463dbaeb7 e5febf646cd7
+  204  docker ps -a 
+  205  docker volume ls
+  206  docker run -it --name test1 -v data:/data ubuntu 
+  207  ls
+  208  docker volume ls
+  209  docker volume inspect data
+  210  cd /var/lib/docker/volumes/data/_data/
+  211  cat container.txt 
+  212  ls
+  213  touch hostlog.txt
+  214  echo "This is from host" > container.txt 
+  215  cd 
+  216  docker ps 
+  217  docker ps -a 
+  218  docker start b6ceee026f8f
+  219  docker attach b6ceee026f8f
+  220  cd /var/lib/docker/volumes/
+  221  ls
+  222  cd data/_data/
+  223  ls
+  224  cat hostlog.txt 
+  225  pwd
+  226  ls
+  227  echo "vdvmskvmdkvms" hostlog.txt 
+  228  ls
+  229  cat hostlog.txt 
+  230  echo "Vdsdvsdvmskvmskvms" > hostlog.txt 
+  231  cat hostlog.txt 
+  232  cd
+  233  docker attach b6ceee026f8f
+  234  whereis /data
+  235  whereis /docker
+  236  cd /var/lib/docker/volumes/data/_data/
+  237  ls
+  238  cat container.txt hostlog.txt 
+  239  systemctl start docker 
+  240  cd /var/lib/docker/volumes/data/_data/
+  241  .s
+  242  ls
+  243  cd
+  244  docker ps 
+  245  history 
+  246  history > docker.txt
+  247  vi docker.txt 
+  248  ls
+  249  vi docker.txt 
+  250  docker run -itd --name test_copy ubuntu 
+  251  docker ps 
+  252  docker attch test_copy 
+  253  docker attach  test_copy 
+  254  docker cp test_copy :/file.txt .
+  255  docker cp test_copy:/file.txt .
+  256  ls
+  257  cat file.txt 
+  258  touch host.txt
+  259  echo "fjvnsjvnsjv" > host.txt 
+  260  docker cp host.txt test_copy:/host.txt
+  261  docker attach test_copy
+  262  docker ps
+  263  docker ps -a 
+  264  ls
+  265  cd
+  266  ,
+  267  sls
+  268  ls
+  269  cd /
+  270  ls
+  271  cd
+  272  ls
+  273  docker ps
+  274  docker run -it --name one -v data:/data ubuntu 
+  275  docker run -it --name two -v data:/data ubuntu 
+  276  docker ps 
+  277  ls
+  278  docker ps 
+  279  docker attach da906225c208\
+  280  docker attach da906225c208
+  281  docker stop da906225c208 34f98e96836a 99caab7401e1
+  282  ls
+  283  car /var/lib/docker/volumes/data/_data/
+  284  cd /var/lib/docker/volumes/data/
+  285  ls
+  286  cd _data/
+  287  ls
+  288  rm *
+  289  ls
+  290  rm -rf *
+  291  ls
+  292  docker ps -a
+  293  docker start da906225c208 34f98e96836a
+  294  docker ps 
+  295  docker attach da906225c208
+  296  ls
+  297  cd
+  298  docker ps
+  299  docker stop da906225c208 34f98e96836a
+  300  docker ps -a 
+  301  docker rm da906225c208
+  302  docker rm 34f98e96836a 99caab7401e1 b6ceee026f8f 
+  303  docker ps -a
+  304  docker images
+  305  docker image --help
+  306  docker run --name first ubuntu
+  307  docker ps -a
+  308  docker start a580bd5b5f6d
+  309  docker ps
+  310  docker attach a580bd5b5f6d
+  311  docker start a580bd5b5f6d
+  312  docker attach a580bd5b5f6d
+  313  docker ps
+  314  docker run -idk --name first ubuntu
+  315  docker run -itd --name first ubuntu
+  316  docker ps -a
+  317  docker rm a580bd5b5f6d
+  318  docker ps -a
+  319  docker run -itd --name first ubuntu
+  320  docker ps
+  321  docker attack first 
+  322  docker attach first 
+  323  docker ps
+  324  systemctl start docker 
+  325  docker ps
+  326  docker images 
+  327  docker run -it --name forcommitcontainer ubuntu
+  328  ps
+  329  docker ps 
+  330  ps
+  331  docker ps 
+  332  docker commit forcommitcontainer saurjain108/practice:vimpackage
+  333  docker images
+  334  docker history saurjain108/practice:vimpachage
+  335  docker images
+  336  docker history saurjain108/practice
+  337  docker history saurjain108/practice:vimpackage
+  338  systemctl start docker 
+  339  docker history saurjain108/practice:vimpackage
+  340  history 
+  341  echo "# Docker" >> README.md
+  342  git init
+  343  git add README.md
+  344  git commit -m "first commit"
+  345  git remote add origin https://github.com/saurjain108/Docker.git
+  346  git push -u origin master
+  347  ls
+  348  git add docker.txt 
+  349  cat docker.txt 
+  350  history > docker.txt 
