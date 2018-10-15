@@ -228,3 +228,98 @@
   348  git add docker.txt 
   349  cat docker.txt 
   350  history > docker.txt 
+  351  cat docker.txt 
+  352  git stat
+  353  git statu
+  354  git status
+  355  git add docker.txt 
+  356  git commit -m "commands from Docker practice"
+  357  git push 
+  358  docker history saurjain108/practice:vimpackage
+  359  ls
+  360  docker ps 
+  361  mkdir dockerbuilfimages
+  362  cd docker
+  363  cd dockerbuilfimages/
+  364  vi dockerfile
+  365  cat dockerfile 
+  366  docker build -t saurjain108/practice:vimusingdockerfile .
+  367  docker images
+  368  docker history saurjain108/practice:vimusingdockerfile
+  369  cd
+  370  git add dockerbuilfimages/dockerfile 
+  371  git commit -m "adding dockerfile"
+  372  git push 
+  373  git add >
+  374  git add .
+  375  git add *
+  376  git status
+  377  git add dockerbuilfimages/
+  378  git add dockerbuilfimages/dockerfile 
+  379  git status
+  380  s
+  381  ls
+  382  docker history saurjain108/practice:vimusingdockerfile
+  383  systemctl start docker 
+  384  docker ps
+  385  docker images
+  386  ls
+  387  docker history saurjain108/practice:vimusingdockerfile
+  388  docker images
+  389  docker run -it saurjain108/practice:vimusingdockerfile
+  390  docker run -it saurjain108/practice:vimusingdockerfile /bin/bash
+  391  docker ps 
+  392   docker
+  393   docker ps 
+  394   docker stop eaa9c9b41666
+  395  ls
+  396  cd dockerbuilfimages/
+  397  docker run -itd tomcat 
+  398  docker ps 
+  399  docker inspect 2ea07835ced2
+  400  curl 172.17.0.2:8080
+  401  curl 172.17.0.2:8080 | grep success
+  402  ip addr
+  403  curl 172.17.0.2:8080 | grep success
+  404  docker ps 
+  405  systemctl start docker 
+  406  docker ps 
+  407  curl 172.17.0.2:8080 | grep success
+  408  docker inspect 2ea07835ced2
+  409  docker rin -itd -P tomcat 
+  410  docker run -itd -P tomcat 
+  411  docker ps
+  412  docker inspect 9f13aee9895d
+  413  docker ps
+  414  ip addr show 
+  415  curl 54.87.138.169:32768
+  416  docker pos 
+  417  docker ps
+  418  docker attach 9f13aee9895d
+  419  docker ps 
+  420  docker start 9f13aee9895d
+  421  docker attach 9f13aee9895d
+  422  docker rm 9f13aee9895d
+  423  docker run -itd -P tomcat 
+  424  docker ps
+  425  ps -a 
+  426  dockerps -a 
+  427  docker ps -a 
+  428  docker ps
+  429  docker attach 64f8ac487b47
+  430  docker ps
+  431  docker attach 2ea07835ced2
+  432  docker ps -a
+  433  docker rm 64f8ac487b47 6035419d66b8 4d78d0137df2 
+  434  docker ps -a
+  435  docker start bbda94f4ea3e
+  436  docker start 2ea07835ced2
+  437  docker start bbda94f4ea3e
+  438  docker ps 
+  439  docker start eaa9c9b41666
+  440  docker ps 
+  441  docker rm -f 2ea07835ced2
+  442  docker run -itd -P tomcat 
+  443  docker ps 
+  444  history 
+  445  history > docker.txt 
