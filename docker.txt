@@ -1,4 +1,124 @@
-
+    1  bash script.sh
+    2  adduser test
+    3  passwd test
+    4  cd /home/
+    5  ll
+    6  cd test/
+    7  mkdir playbooks
+    8  chown test:test playbooks/
+    9  ll
+   10  who
+   11  su - test
+   12  yum install epel-release
+   13  yum update repolist
+   14  sudo yum update 
+   15  yum install ansible 
+   16  ansible --version 
+   17  cd /etc/ansible/
+   18  ls
+   19  ll
+   20  cat ansible.cfg 
+   21  vi ansible.cfg 
+   22  cat /etc/selinux/config 
+   23  cat /etc/ansible/ansible.cfg 
+   24  which python
+   25  python -V
+   26  sudo yum list installed | grep python 
+   27  whereis python
+   28  cd
+   29  cd /etc/ansible/
+   30  cat hosts 
+   31  ls
+   32  mv hosts hosts.original
+   33  ls
+   34  touch hosts
+   35  vi hosts
+   36  cat hosts
+   37  vi hosts
+   38  cd
+   39  ansible all --list-hosts
+   40  vi /etc/ansible/hosts
+   41  ansible all --list-hosts
+   42  ansible apacheweb -m ping  
+   43  sudo ansible apacheweb -m ping  
+   44  su - test
+   45  sudo visudo 
+   46  cd
+   47  su - test
+   48  exit
+   49  ls
+   50  sudo yum install git 
+   51  git clone https://github.com/saurjain108/python-practice.git
+   52  ls
+   53  cd python-practice/
+   54  ls
+   55  cd for_python/
+   56  mkdir game_0_x
+   57  cd game_0_x/
+   58  vi game-0X.py
+   59  python2.7 game-0X.py 
+   60  vi game-0X.py
+   61  python2.7 game-0X.py 
+   62  vi game-0X.py
+   63  python2.7 game-0X.py 
+   64  vi game-0X.py
+   65  python2.7 game-0X.py 
+   66  vi game-0X.py
+   67  python2.7 game-0X.py 
+   68  vi game-0X.py
+   69  python2.7 game-0X.py 
+   70  vi game-0X.py
+   71  python2.7 game-0X.py 
+   72  vi game-0X.py
+   73  python2.7 game-0X.py 
+   74  vi game-0X.py
+   75  python2.7 game-0X.py 
+   76  vi game-0X.py
+   77  python2.7 game-0X.py 
+   78  vi game-0X.py
+   79  python2.7 game-0X.py 
+   80  vi game-0X.py
+   81  python2.7 game-0X.py 
+   82  vi game-0X.py
+   83  python2.7 game-0X.py 
+   84  9
+   85  python2.7 game-0X.py 
+   86  vi game-0X.py
+   87  python2.7 game-0X.py 
+   88  vi game-0X.py
+   89  python2.7 game-0X.py 
+   90  vi game-0X.py
+   91  python2.7 game-0X.py 
+   92  vi game-0X.py
+   93  python2.7 game-0X.py 
+   94  vi game-0X.py
+   95  python2.7 game-0X.py 
+   96  vi game-0X.py
+   97  python2.7 game-0X.py 
+   98  vi game-0X.py
+   99  python2.7 game-0X.py 
+  100  vi game-0X.py
+  101  python2.7 game-0X.py 
+  102  vi game-0X.py
+  103  python2.7 game-0X.py 
+  104  vi game-0X.py
+  105  tp.py
+  106  vi tp.py
+  107  python2.7 tp.py 
+  108  vi game-0X.py
+  109  python2.7 game-0X.py 
+  110  vi game-0X.py
+  111  python2.7 game-0X.py 
+  112  cd
+  113  cd /
+  114  ls
+  115  cd
+  116  ll
+  117  ls
+  118  cd swap 
+  119  exit
+  120  sudo visudo 
+  121  exit
   122  docker
   123  yum install docker 
   124  docker ps
@@ -323,3 +443,103 @@
   443  docker ps 
   444  history 
   445  history > docker.txt 
+  446  git add docker.txt 
+  447  git commit -m "updating docker commands"
+  448  git push
+  449  git pull --rebase origin master
+  450  git push
+  451  cd dockerbuilfimages/
+  452  vi dockerfile 
+  453  docker build -t saurjain108/practice:ports .
+  454  docker ps
+  455  docker images
+  456  docker ps
+  457  cd
+  458  sudo visudo
+  459  exit
+  460  cd
+  461  touch abc.py
+  462  vi 
+  463  vi abc.py 
+  464  rm abc.py 
+  465  ls
+  466  exit
+  467  ls
+  468  cd python-practice/for_python/practice/
+  469  ls
+  470  python abc.py 
+  471  vi a
+  472  vi abc.py 
+  473  vi a
+  474  python abc.py 
+  475  ls
+  476  python abc.py 
+  477  ls
+  478  vi abc.py 
+  479  python abc.py 
+  480  vi abc.py 
+  481  python abc.py 
+  482  vi abc.py 
+  483  python abc.py 
+  484  vi abc.py 
+  485  python abc.py 
+  486  vi abc.py 
+  487  cd
+  488  docker ps
+  489  systemctl start docker 
+  490  docker ps
+  491  docker images
+  492  docker ps -a
+  493  docker images
+  494  ls
+  495  cd dockerbuilfimages/
+  496  ls
+  497  cd
+  498  ls
+  499  cd dockerbuilfimages/
+  500  cat dockerfile 
+  501  docker images
+  502  docker rmi e78d747c8855 1f478e777ef7 40b3710608e8 41a54fe1f79d cd6d8154f1e1
+  503  docker ps
+  504  docker ps -a
+  505  docker rm 1738f02dd688 eaa9c9b41666 bbda94f4ea3e
+  506  ls
+  507  docker build -t saurjain108/practice:ports.
+  508  docker build -t saurjain108/practice:ports .
+  509  docker imagser
+  510  docker imagsea
+  511  docker images
+  512  docker imagsea
+  513  docker images
+  514  docker run -itd saurjain108/practice:ports 
+  515  docker run -itd saurjain108/practice:ports /bin/bash
+  516  docker run -it saurjain108/practice:ports /bin/bash
+  517  docker ps 
+  518  docker stop 53467e276d8b
+  519  docker pos 
+  520  docker ps
+  521  docker inspect fba55a36f3e2
+  522  docker ps
+  523  docker ps -a 
+  524  docker inspect 53467e276d8b
+  525  python2.7 game-0X.py cd 
+  526  cd
+  527  docker run -itd -P tomcat 
+  528  docker ps
+  529  docker images
+  530  docker ps
+  531  docker inspect fd0e9fdb8004
+  532  docker network ls 
+  533  docker network inspect bridge 
+  534  docker images
+  535  docker ps
+  536  docker stop dazzling_noether
+  537  docker ps
+  538  docker export dazzling_noether > update.tar
+  539  ls
+  540  docker import - newimage < update.tar 
+  541  docker imagers
+  542  docker images
+  543  ls
+  544  history 
+  545  history > docker.txt 
