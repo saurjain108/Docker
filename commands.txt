@@ -1,0 +1,210 @@
+    1  passwd root 
+    2  cat secrets/initialAdminPassword 
+    3  cd
+    4  ls
+    5  pwd
+    6  touch /home/abc.txt
+    7  la /home/
+    8  ls /home/
+    9  ls
+   10  history 
+   11  ping 8.8.8.8 -n 20
+   12  exit
+   13  cd
+   14  cat /etc/group
+   15  cd| grep root
+   16  cat /etc/group | grep root
+   17  cat /etc/group | grep ec2
+   18  cat /etc/passwd | grep root
+   19  exit
+   20  cd /var/log/jenkins/
+   21  ls
+   22  cat jenkins.log 
+   23  cd /var/lib/jenkins/workspace/job/
+   24  ls
+   25  ll
+   26  cd ..
+   27  ls
+   28  cd first/
+   29  l
+   30  ls
+   31  ll
+   32  cat /etc/shadow
+   33  cat /etc/shadow | grep ec2
+   34  cat /etc/group
+   35  cd
+   36  man rpm 
+   37  rpm -qa
+   38  rpm -qa | grep jenk
+   39  rpm -qa | wc
+   40  rpm -qa | wc -l
+   41  rpm -qa vsftpd
+   42  rpm -qa httpd
+   43  whereis httpD
+   44  whereis httpd
+   45  rpm -qf httpd
+   46  rpm -qf /usr/share/man/man8/httpd.8.gz
+   47  rpm -ql httpd-2.4.39-1.amzn2.0.1.x86_64
+   48  rpm -qc httpd-2.4.39-1.amzn2.0.1.x86_64
+   49  rpm -qd httpd-2.4.39-1.amzn2.0.1.x86_64
+   50  rpm -qi httpd-2.4.39-1.amzn2.0.1.x86_64
+   51  rpm -qa | grep https
+   52  rpm -qa | grep httpd
+   53  rpm -qa --changelog httpd-2.4.39-1.amzn2.0.1.x86_64
+   54  cd
+   55  rpm -qa --changelog httpd-2.4.39-1.amzn2.0.1.x86_64
+   56  rpm -qa --changelog httpd
+   57  /usr/sbin/httpd/usr/sbin/httpdcd
+   58  cd /
+   59  ls
+   60  qcd
+   61  cd
+   62  rpm -q httpd
+   63  rpm -q --scripts httpd
+   64  yum list 
+   65  yum list installed
+   66  yum search httpd
+   67  yum search emac
+   68  yum search tmux
+   69  yum list | grep tmux
+   70  yum whatprovides */httpd
+   71  yum history 
+   72  yum localinstall zsh
+   73  yum history list 11
+   74  yum history info 11
+   75  yum history info 11 | wc -l
+   76  yum history list
+   77  yum history list 10
+   78  cd
+   79  ansible all -m ping
+   80  ansible all -m ping -vvv
+   81  ansible test -m ping
+   82  cat /etc/ansible/hosts 
+   83  ip addr
+   84  vi /etc/ansible/hosts 
+   85  ansible test -m ping
+   86  vi /etc/ansible/hosts 
+   87  ssh-keygen 
+   88  ssh-copy-id cd
+   89  cd
+   90  sudo yum remove ansible -y
+   91  sudo yum install ansiible
+   92  sudo yum install ansible -y
+   93  cd /etc/ansible/
+   94  cat hosts
+   95  vi  hosts
+   96  ssh-copy-id root@172.31.85.69
+   97  ssh-keygen 
+   98  ssh-copy-id root@172.31.85.69
+   99  ssh-copy-id root@ip-172-31-85-69
+  100  ssh-copy-id root@54.175.241.205
+  101  lsmod | grep kvm
+  102  lsmod
+  103  passwd ovs
+  104  exit
+  105  sudo yum install ansible -y
+  106  systemctl service jenkins start 
+  107  systemctl service start jenkins
+  108  exit
+  109  systemctl service start jenkins
+  110  yum history 
+  111  yum history list 3
+  112  yum history info 3
+  113  sudo ipst
+  114  sudo iostat 
+  115  iftop 
+  116  hto
+  117  top
+  118  cd /root/
+  119  sudo ifconfig eth0 192.168.0.1 netmask 255.255.255.0
+  120  vi /etc/sudoers
+  121  vi sudo
+  122  vi /etc/sudoers
+  123  cd
+  124  docker images
+  125  docker exec -it hello-world
+  126  docker exec --help
+  127  docker exec -it hello-world bash
+  128  docker ps
+  129  docker run hello-world
+  130  docker ps
+  131  docker run ubuntu
+  132  docker ps
+  133  docker images 
+  134  docker ps -a
+  135  docker run --name my1 ubuntu
+  136  docker ps -a
+  137  docker ps
+  138  docker ps -aux
+  139  docker ps aux
+  140  ps aux
+  141  docker ps -a
+  142  docker login
+  143  ccat /root/.docker/config.json 
+  144  cat /root/.docker/config.json 
+  145  docker run -it ubuntu 
+  146  dockerps
+  147  docker ps
+  148  docker run -itd ubuntu 
+  149  docker ps
+  150  docker stop 4cfb6e28b009
+  151  docker ps -a
+  152  docker start 4cfb6e28b009
+  153  docker ps -a
+  154  docker attach 4cfb6e28b009
+  155  docker rm 4cfb6e28b009
+  156  docker images
+  157  docker rmi hello-world
+  158  docker rm 32e7fccf714f
+  159  docker rmi hello-world
+  160  docker rm 74de6db6f876
+  161  docker rmi hello-world
+  162  docker images
+  163  history 
+  164  docker volume ls
+  165  docker run -it -v data:/data ubuntu
+  166  docker volume ls
+  167  docker volume inspect local
+  168  docker volume inspect data
+  169  cd /var/lib/docker/volumes/data/_data
+  170  ls
+  171  cat log.txt 
+  172  echo "bnjbnjdfnbdf" > log2.txt
+  173  docker ps -a
+  174  docker attach 3f1bcaa01e92
+  175  docker start 3f1bcaa01e92
+  176  docker attach 3f1bcaa01e92
+  177  docker ps
+  178  docker psa
+  179  docker ps -a
+  180  docker start 3f1bcaa01e92
+  181  docker attach 3f1bcaa01e92
+  182  docker ps
+  183  docker cp 3f1bcaa01e92:/root/abc.txt .
+  184  las
+  185  ls
+  186  ll
+  187  date 
+  188  rm abc.txt 
+  189  ls
+  190  rm -rf abc.txt 
+  191  ls
+  192  docker cp 3f1bcaa01e92:/root/abc.txt .
+  193  ls
+  194  docker run -itd --name=forcommit ubuntu
+  195  docker attach forcommit
+  196  docker ps
+  197  docker login
+  198  docker commit forcommit saurjain108/repo2:vim
+  199  docker images
+  200  docker history saurjain108/repo2
+  201  docker history saurjain108/repo2:vim
+  202   docker push
+  203   docker push --help
+  204  vi dockerfile
+  205  docker build dockerfile 
+  206  docker build -t saurjain108/repo2:vimfile
+  207  docker build -t saurjain108/repo2:vimfile dockerfile 
+  208  docker build -t saurjain108/repo2:vimfile .
+  209  docker images
+  210  history > commands.txt
